@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="img/formularios-do-google.png">
+    <title>Formulário</title>
+</head>
+<body>
+
+    <div class="formulario">
+        <form action="">
+            <fieldset>
+                <legend><b>Formulário de cadastro para o Rio de Janeiro</b></legend>
+                <div class="input">
+                    <label for="nome">Nome</label>
+                    <input placeholder="Digite o seu nome" type="text" name="nome" id="nome" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="sobrenome">Sobrenome</label>
+                    <input placeholder="Digite o seu sobrenome" type="text" name="sobrenome" id="sobrenome" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="data">Data de Nascimento</label>
+                    <input placeholder="Digite o seu email" type="date" name="data" id="data" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="email">E-mail</label>
+                    <input placeholder="Digite o seu email" type="email" name="email" id="email" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="celular">Celular:</label>
+                    <input placeholder="Digite o seu celular" type="tel" name="celular" id="celular" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="CPF">CPF:</label>
+                    <input placeholder="Digite o seu CPF" type="number" name="CPF" id="CPF" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="RG">RG:</label>
+                    <input placeholder="Digite o seu RG" type="number" name="RG" id="RG" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="eleitor">Título de eleitor:</label>
+                    <input placeholder="Digite o seu eleitor" type="number" name="eleitor" id="eleitor" required class="entrada">
+                </div>
+                <label>Estado:</label>
+                <select id="estado" name="estado" class="entrada" required><span class="Obrigatorio">*</span>
+                    <option value="RJ">Rio de Janeiro</option>
+                </select>
+                <div class="input">
+                    <label for="municipio">Município:</label>
+                    <input placeholder="Digite o seu município" type="text" name="município" id="município" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="bairro">Bairro:</label>
+                    <input placeholder="Digite o seu bairro" type="text" name="bairro" id="bairro" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="CEP">CEP:</label>
+                    <input placeholder="Digite o seu bairro" type="number" name="CEP" id="CEP" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div class="input">
+                    <label for="numero">Número:</label>
+                    <input placeholder="Digite o seu número" type="number" name="numero" id="numero" required class="entrada"><span class="Obrigatorio">*</span>
+                </div>
+                <div>
+                    <p>Tem experiência profissional?</p><span class="Obrigatorio">*</span>
+                    <input type="radio" id="temExperiencia" name="experienciaProfissional" value="temExperiencia">
+                    <label for="feminino">Sim</label>
+                    <input type="radio" id="NaoTemExperiencia" name="experienciaProfissional" value="NaoTemExperiencia" >
+                    <label for="masculino">Não</label>
+                </div>
+                <div class="input">
+                    <label>Se "Sim" nos conte onde você trabalhou:</label>
+                    <input  type="text" name="trabalho" id="trabalho" required class="entrada">
+                </div>
+                <div>
+                    <p>Sexo:</p><span class="Obrigatorio">*</span>
+                    <input type="radio" id="feminino" name="genero" value="feminino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" id="masculino" name="genero" value="masculino" >
+                    <label for="masculino">Masculino</label>
+                </div>
+                <div>
+                    <label>Como você conheceu o nosso site?</label>
+                    <select class="entrada">
+                        <option value="IN">Instagram</option>
+                        <option value="LI">Linkedin</option>
+                        <option value="IN">Facebook</option>
+                        <option value="OU">outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label>Se selecionou o opção "outros" digite onde?</label>
+                    <input type="text" class="entrada">
+                </div>
+                <div class="input">
+                    <label>Aceita receber mesagens através do whatsapp?</label>
+                    <input type="checkbox">
+                </div>
+                <div>
+                    <p>Deixe a sua opnião em relação ao nosso site.</p>
+                    <textarea>
+
+                    </textarea>
+                </div>
+                <div class="subimt">
+                    <input type="submit" id="botao">
+                </div>
+            
+            </fieldset>
+        </form>
+    </div>
+    
+</body>
+</html>
